@@ -1,0 +1,71 @@
+body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.adweek.com/files/2016_Jan/coke-taste-the-feeling-8.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 10s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode:forwards ;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate {
+    0%{
+        background-image: url(https://digiday.com/wp-content/uploads/2016/01/coca-cola-782x436.jpg);
+    }
+    20%{
+        background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/2019-01/3/16/campaign_images/buzzfeed-prod-web-06/this-is-why-coca-cola-tastes-better-from-a-glass--2-10769-1546549485-6_dblbig.jpg);
+    }
+    40%{
+        background-image: url(https://dg6qn11ynnp6a.cloudfront.net/wp-content/uploads/2018/02/16163110/CocaCola_TwitterImage.jpg);
+    }
+    60%{
+        background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/201613/rs_1024x754-160203160438-1024-coca-cola-ad.jpg?fit=around%7C1024:754&output-quality=90&crop=1024:754;center,top);
+    }
+    80%{
+        background-image: url(https://images.pexels.com/photos/2901923/pexels-photo-2901923.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+    100%{
+        background-image: url(https://images.pexels.com/photos/845808/pexels-photo-845808.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    }
+}
+
+.Title{
+    color: cornsilk;
+    margin-top: 120px;
+    text-align: center;
+    width:300px;
+    height: 250px;
+    margin-left: 40%;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color:cornsilk;
+}
+a:hover {
+    background-color: red;
+}  
+.button {
+    border:cornsilk;
+    background-color: red;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 44%;
+  }
+   
+ 
